@@ -2,6 +2,8 @@
 layout: post
 title: "The Solar-Powered Bus Display That Turned Its Back on Commuters"
 date: 2026-05-28 05:30:00 +0800
+description: "NCS installed a solar-powered bus arrival display at a Singapore bus stop — and pointed the screen away from commuters. A case study in Smart Nation UX failure."
+image: /assets/images/bus-stop-display.jpg
 categories: [ux, singapore, infrastructure]
 tags: [bus-stop, ncs, solar, eta, smart-nation]
 ---

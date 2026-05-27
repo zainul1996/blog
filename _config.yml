@@ -25,3 +25,9 @@ show_excerpts: true
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+# Social
+twitter:
+  username: zainulcain
+  card: summary_large_image
+logo: /assets/images/bus-stop-display.jpg
