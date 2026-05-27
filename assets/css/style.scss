@@ -219,7 +219,7 @@ pre code {
 
 .site-footer {
   border-top: 1px solid rgba(255,255,255,0.05);
-  padding: 1.5rem 0;
+  padding: 1rem 0;
   margin-top: 4rem;
 }
 
@@ -234,14 +234,21 @@ pre code {
 .footer-col-wrapper {
   font-size: 0.75rem;
   color: #62666d;
+  line-height: 1;
 }
 
 .footer-col {
   margin-bottom: 0;
+  line-height: 1;
 }
 
 .svg-icon {
   fill: #8a8f98;
+  transition: fill 0.15s ease;
+}
+
+.social-links a:hover .svg-icon {
+  fill: #f7f8f8;
 }
 
 .social-media-list a {
@@ -301,10 +308,16 @@ pre code {
   margin: 0;
 }
 
+/* ── Post / Page wrapper ── */
+
+.post {
+  max-width: 100%;
+}
+
 /* ── Post Page ── */
 
 .post-header {
-  margin: 2.5rem 0 1.5rem;
+  margin: 1rem 0 1.5rem;
 }
 
 .post-title {
@@ -403,7 +416,7 @@ pre code {
 /* ── About Page ── */
 
 .page-content {
-  padding: 2rem 0;
+  padding: 1.5rem 0;
 }
 
 .page-heading {
@@ -539,6 +552,9 @@ pre code {
   .site-header .wrapper {
     padding: 0 1rem;
   }
+  .page-content {
+    padding: 1rem 0;
+  }
   h1 {
     font-size: 1.5rem;
   }
@@ -629,7 +645,7 @@ pre code {
 /* ── Welcome Hero (empty state) ── */
 
 .welcome-hero {
-  padding: 3rem 0 1rem;
+  padding: 1.5rem 0 1rem;
 }
 
 .welcome-title {
