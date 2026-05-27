@@ -6,7 +6,7 @@ categories: [ux, singapore, infrastructure]
 tags: [bus-stop, ncs, solar, eta, smart-nation]
 ---
 
-NCS's CEO posted on LinkedIn this week, standing proudly next to a new
+NCS's CEO [posted on LinkedIn](https://www.linkedin.com/posts/samliew_sustainability-busarrival-transportation-share-7464185277130117120-v0vj) this week, standing proudly next to a new
 solar-powered bus arrival display. He's smiling. The sun is out. The screen is
 bright and readable. Problem is — if you're sitting inside the bus stop, the
 screen is behind you.

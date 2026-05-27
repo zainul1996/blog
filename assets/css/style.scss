@@ -565,12 +565,12 @@ pre code {
     font-size: 1.125rem;
   }
 
-  /* Mobile hamburger: show hamburger, hide links by default */
-  #nav-trigger, label[for="nav-trigger"] {
-    display: block;
+  /* Mobile hamburger: hide checkbox, show hamburger icon, hide links by default */
+  #nav-trigger {
+    display: none;
   }
-
   label[for="nav-trigger"] {
+    display: block;
     position: absolute;
     top: 8px;
     right: 1rem;
