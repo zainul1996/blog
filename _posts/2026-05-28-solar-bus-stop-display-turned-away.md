@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Solar-Powered Bus Display That Turned Its Back on Commuters"
-date: 2026-05-28 06:00:00 +0800
+date: 2026-05-28 05:30:00 +0800
 categories: [ux, singapore, infrastructure]
 tags: [bus-stop, ncs, solar, eta, smart-nation]
 ---
