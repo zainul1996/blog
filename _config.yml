@@ -1,0 +1,29 @@
+title: "Zainul's Tech Blog"
+tagline: "Observations on tech in the wild — good UX, bad UX, and where things could be better"
+email: hello@zainul.me
+description: >- 
+  Real-life tech observations. I spot things in the wild — badly designed 
+  interfaces, clever implementations, and systems that could work better — 
+  then expand on them here.
+url: "https://blog.zainul.me"
+github_username: zainul1996
+
+# Minima theme config
+theme: minima
+minima:
+  skin: auto
+  date_format: "%-d %B %Y"
+
+header_pages:
+  - about.md
+
+# Build settings
+markdown: kramdown
+permalink: /:year/:month/:title/
+
+# Show excerpts on the home page
+show_excerpts: true
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
