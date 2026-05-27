@@ -215,23 +215,6 @@ pre code {
   fill: #8a8f98;
 }
 
-.site-nav .trigger {
-  background: #0f1011;
-  border: 1px solid rgba(255,255,255,0.08);
-  border-radius: 8px;
-  padding: 0.5rem;
-}
-
-.site-nav .trigger .page-link {
-  display: block;
-  padding: 0.5rem;
-  border-bottom: 1px solid rgba(255,255,255,0.05);
-}
-
-.site-nav .trigger .page-link:last-child {
-  border-bottom: none;
-}
-
 /* ── Footer ── */
 
 .site-footer {
@@ -513,9 +496,43 @@ pre code {
   fill: #8a8f98;
 }
 
+/* ── Navigation / Hamburger ── */
+
+/* Desktop: hide hamburger, show links inline */
+#nav-trigger, label[for="nav-trigger"] {
+  display: none;
+}
+
+.site-nav {
+  white-space: nowrap;
+}
+
+.site-nav .page-link {
+  display: inline-block;
+  font-family: 'Inter', system-ui, sans-serif;
+  font-feature-settings: 'cv01', 'ss03';
+  font-size: 0.8125rem;
+  font-weight: 510;
+  color: #8a8f98;
+  padding: 0.5rem;
+  letter-spacing: -0.008rem;
+}
+
+.site-nav .page-link:hover {
+  color: #f7f8f8;
+}
+
+.site-nav .page-link:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
 /* ── Responsive ── */
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
+  body {
+    -webkit-text-size-adjust: 100%;
+  }
+
   .wrapper {
     padding: 0 1rem;
   }
@@ -530,5 +547,81 @@ pre code {
   }
   .post-list .post-link {
     font-size: 1.125rem;
+  }
+
+  /* Mobile hamburger: show hamburger, hide links by default */
+  #nav-trigger, label[for="nav-trigger"] {
+    display: block;
+  }
+
+  label[for="nav-trigger"] {
+    position: absolute;
+    top: 8px;
+    right: 1rem;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .menu-icon {
+    display: block;
+    width: 36px;
+    height: 36px;
+    line-height: 0;
+    padding-top: 18px;
+    text-align: center;
+  }
+
+  .menu-icon > svg {
+    width: 18px;
+    height: 15px;
+  }
+
+  .menu-icon > svg path {
+    fill: #8a8f98;
+  }
+
+  label[for="nav-trigger"]:hover .menu-icon > svg path {
+    fill: #f7f8f8;
+  }
+
+  .site-nav {
+    position: relative;
+  }
+
+  /* Hide dropdown by default */
+  .site-nav .trigger {
+    display: none;
+    position: absolute;
+    top: 44px;
+    right: 0;
+    background: #0f1011;
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 8px;
+    padding: 0.5rem;
+    min-width: 180px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+    z-index: 20;
+  }
+
+  .site-nav .trigger .page-link {
+    display: block;
+    padding: 0.5rem 0.75rem;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    margin-right: 0;
+    font-size: 0.875rem;
+  }
+
+  .site-nav .trigger .page-link:last-child {
+    border-bottom: none;
+  }
+
+  /* Show dropdown when checkbox checked */
+  #nav-trigger:checked ~ .trigger {
+    display: block;
   }
 }
