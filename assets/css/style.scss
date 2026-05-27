@@ -567,21 +567,27 @@ pre code {
   }
 
   /* Mobile hamburger: hide checkbox, show hamburger icon, hide links by default */
+
+  /* Position hamburger within the header bar, not inside the collapsed nav */
+  .site-header .wrapper {
+    position: relative;
+  }
+
   #nav-trigger {
     display: none;
   }
   label[for="nav-trigger"] {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: absolute;
-    top: 8px;
+    top: 50%;
     right: 1rem;
+    transform: translateY(-50%);
     width: 36px;
     height: 36px;
     cursor: pointer;
     z-index: 10;
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
 
   .menu-icon {
@@ -607,14 +613,14 @@ pre code {
   }
 
   .site-nav {
-    position: relative;
+    position: static;
   }
 
   /* Hide dropdown by default */
   .site-nav .trigger {
     display: none;
     position: absolute;
-    top: 44px;
+    top: 100%;
     right: 0;
     background: #0f1011;
     border: 1px solid rgba(255,255,255,0.08);
