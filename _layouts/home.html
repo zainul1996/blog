@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  {%- if site.posts.size > 0 -%}
+    <ul class="post-list">
+      {%- for post in site.posts -%}
+      <li>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
+        {%- if site.show_excerpts -%}
+          <div class="post-excerpt">
+            {{ post.excerpt }}
+          </div>
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+  {%- else -%}
+    <section class="welcome-hero">
+      <h1 class="welcome-title">Observations on tech in the wild</h1>
+      <p class="welcome-subtitle">
+        I'm Zainul — an SRE in Singapore. This blog is where I write about things I notice: 
+        a confusing checkout flow, a clever QR code implementation, a government service 
+        that just works (or doesn't), or a hardware quirk that should've been caught in QA.
+      </p>
+      <div class="welcome-note">
+        <p>First post coming soon. Got an observation? I'm all ears.</p>
+      </div>
+    </section>
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+  {%- endif -%}
+</div>
