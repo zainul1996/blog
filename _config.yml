@@ -18,6 +18,7 @@ header_pages:
 # Build settings
 markdown: kramdown
 permalink: /:year/:month/:title/
+future: true
 
 # Show excerpts on the home page
 show_excerpts: true
