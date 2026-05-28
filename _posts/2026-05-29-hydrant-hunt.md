@@ -2,7 +2,7 @@
 layout: post
 title: "I Fought Fires in NS. The Dashboard Was Useless."
 date: 2026-05-29 00:00:00 +0800
-description: "A 9-year fight to build a simple geo tool that tells firefighters which hydrant to use, how many hoses to lay, and where to park. Rejected three times by three different agencies."
+description: "A 9-year fight to build a simple geo tool that tells firefighters which hydrant to use, how many hoses to lay, and where to park. Rejected twice at two different agencies."
 categories: [ux, singapore, government, firefighting]
 tags: [scdf, ns, hydrant, govtech, open-data, firefighting]
 ---
@@ -29,4 +29,4 @@ The part that frustrates me most is the data argument. Fire hydrant locations ar
 
 If the data were public, civilians could have built this tool for free years ago. SCDF could trial it and if it works, hire the person or buy the solution. Agencies love to say they want innovation from the ground up. But they won't publish the data that would let people innovate.
 
-Three times I brought this up. Three times it got handed off to someone else's problem. I'm not in a position to push anymore. But I still wonder: who owns this problem now?
+Twice I brought this up. Twice it got handed off to someone else's problem. I'm not in a position to push anymore. But I still wonder: who owns this problem now?
