@@ -2,8 +2,8 @@ title: "Zainul's Tech Blog"
 tagline: "Observations on tech in the wild"
 email: hello@zainul.me
 description: >- 
-  Real-life tech observations. I spot things in the wild — badly designed
-  interfaces, clever implementations, and systems that work better — then
+  Real-life tech observations. I spot things in the wild: badly designed
+  interfaces, clever implementations, and systems that work better. Then
   expand on them here.
 url: "https://blog.zainul.me"
 github_username: zainul1996
@@ -30,4 +30,3 @@ plugins:
 twitter:
   username: zainulcain
   card: summary_large_image
-logo: /assets/images/bus-stop-display.jpg
