@@ -17,6 +17,8 @@ Take out too many hoses and they pile on the ground as a trip hazard. After the 
 
 This is a straightforward geo problem. When a call comes in, the system knows the fire location. Your fire engine has GPS. The hydrants have coordinates. Combine those three data points and you can tell the crew: "Nearest accessible hydrant is at [X]. Park here. Lay two 20m hoses." It could even show a visualisation of the hydrant position relative to the fire engine and the fire, so everyone on the crew can see the plan at a glance instead of coordinating verbally over the noise.
 
+There's typically only about 7 minutes from leaving the station to reaching the incident. Inside the fire engine, it's chaos: everyone is equipping their gear, talking through the plan, and mentally preparing for what's ahead. Taking the mental load of hydrant spotting and hose planning off the crew would let them focus on what actually matters.
+
 No guessing. No one craning their neck out the window. No extra hose connections that add risk and weight.
 
 I proposed this in 2017 during my NS days (November 2017 to July 2019). The answer: they couldn't get the raw data, and I'd need to talk to officers higher up the chain. But there's no real mechanism for an NSF to escalate a ground-up idea like this. You can't just keep asking to speak to the next rank above you. These sorts of initiatives should come from the ground, and there should be a way to bring them up. But there isn't one for a 21-year-old full-time firefighter.
