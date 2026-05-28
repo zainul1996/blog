@@ -15,7 +15,7 @@ We carried three types of hoses. The 64mm ones for water supply from the hydrant
 
 Take out too many hoses and they pile on the ground as a trip hazard. After the fire, you're already exhausted from fighting it. Having fewer hoses to roll back up can go a long way.
 
-This is a straightforward geo problem. When a call comes in, the system knows the fire location. Your fire engine has GPS. The hydrants have coordinates. Combine those three data points and you can tell the crew: "Nearest accessible hydrant is at [X]. Park here. Lay two 20m hoses."
+This is a straightforward geo problem. When a call comes in, the system knows the fire location. Your fire engine has GPS. The hydrants have coordinates. Combine those three data points and you can tell the crew: "Nearest accessible hydrant is at [X]. Park here. Lay two 20m hoses." It could even show a visualisation of the hydrant position relative to the fire engine and the fire, so everyone on the crew can see the plan at a glance instead of coordinating verbally over the noise.
 
 No guessing. No one craning their neck out the window. No extra hose connections that add risk and weight.
 
