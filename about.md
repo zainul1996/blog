@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I'm Zainul — an SRE/Infra-Embedded Engineer in Singapore. I spend my days
+I'm Zainul, an SRE/Infra-Embedded Engineer in Singapore. I spend my days
 thinking about systems, reliability, and how tech shapes everyday life.
 
 This blog is where I write about things I notice in the wild: a confusing
@@ -12,7 +12,7 @@ checkout flow at a hawker centre, a clever use of QR codes, a government
 service that just works (or doesn't), or a hardware quirk that should've
 been caught in QA.
 
-These aren't hot takes — they're observations, expanded.
+These aren't hot takes. They're observations, expanded.
 
 ---
 
